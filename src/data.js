@@ -75,7 +75,8 @@ function Counter() {
 
   return (
     <div>
-      <button onClick={handleClick}>
+      <button onClick={handleClick}
+      >
       Show Details</button>
       {isVisible &&
        <p>Amazing details!</p>}
